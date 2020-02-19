@@ -132,7 +132,7 @@
   - 아래 코드는 LED 점멸 동작을 위해 필수적으로 포함 해야 할 코드 입니다
     ```cpp
     BSP_LED_Init(LED1); // LED의 초기화
-    BPP_LED_On(LED1); // LED On
+    BSP_LED_On(LED1); // LED On
     BSP_LED_Off(LED1); // LED Off
     BSP_LED_Toggle(LED1); // LED Toggle
     HAL_Delay(999); //Delay 함수
